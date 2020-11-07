@@ -1,0 +1,89 @@
+.navbar {
+    position: inherit;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgrey;
+    padding: 0 1em 0 0;
+}
+a:visited {
+    color: darkgrey;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+}
+
+.search-box {
+    height: 4em;
+    width: 50em;
+    border-radius: 2.5em;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.footer-links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    display: block;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Mexico {
+    padding: 0.6em 0 0em 1.5em;
+    display: block;
+    color: darkgrey;
+    border-width: 0.010em;
+    border-style: solid;
+    
+}
+
+.right-footer {
+    position: absolute;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    display: inline-block;
+    width: ;
+    padding-top: 12px;
+}
+
+.left-footer {
+    margin-left: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 90%; /*changing the width makes text not follow below*/
+    padding-top: 12px;
+    
+}
